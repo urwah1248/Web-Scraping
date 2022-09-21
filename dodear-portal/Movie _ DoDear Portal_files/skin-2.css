@@ -1,0 +1,52 @@
+body.skin-2 {
+  background-color: #141414;
+  color: #e5e5e5;
+}
+body.skin-2 .header-wrap {
+  background-color: transparent;
+}
+body.skin-2 .list-anc,
+body.skin-2 .list-meta,
+body.skin-2 .heading-1,
+body.skin-2 .content_detail {
+  color: #e5e5e5;
+}
+body.skin-2 .list-anc:hover {
+  color: #e5e5e5;
+}
+body.skin-2 .section-header h3 {
+  color: #e5e5e5;
+}
+body.skin-2 .breadcrumb-item:first-child .breadcrumb-icon .fa,
+body.skin-2 .filter-link .filter-link-label,
+body.skin-2 .filter-link .filter-link-active {
+  color: #e5e5e5;
+}
+body.skin-2 .filter-link .filter-link-active {
+  text-decoration: underline;
+}
+body.skin-2 .tabular,
+body.skin-2 .tabular-artist,
+body.skin-2 .content-stats {
+  color: #333;
+}
+body.skin-2 .tabular tr {
+  background-color: #ddd;
+}
+body.skin-2 .tabular tr:nth-child(2n) {
+  background-color: #f1f1f1;
+}
+.billboard {
+  position: relative;
+  padding-top: 56.25%;
+}
+.billboard-img,
+.billboard-video {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  max-width: 100%;
+}
+/*# sourceMappingURL=skin-2.css.map */
