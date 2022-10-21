@@ -2,12 +2,12 @@ from bs4 import BeautifulSoup
 import codecs
 import requests
 
-#url = "http://www.dodear.com//en/movie"
-#response = requests.get(url)
-#htmlcontent = response.content
+url = "http://www.dodear.com//en/movie"
+response = requests.get(url)
+htmlcontent = response.content
 
-file = codecs.open("dodear-portal.html", "r", "utf-8")
-htmlcontent = file.read()
+#file = codecs.open("dodear-portal.html", "r", "utf-8")
+#htmlcontent = file.read()
 
 soup = BeautifulSoup(htmlcontent, 'html.parser')
 #print(soup.prettify())
